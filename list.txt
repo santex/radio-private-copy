@@ -1,0 +1,14 @@
+http://ubuntu.hbr1.com:19800/trance.ogg
+http://ubuntu.hbr1.com:19800/tronic.ogg
+http://ubuntu.hbr1.com:19800/ambient.ogg
+http://eteris.startfm.lt/startfm.ogg
+http://wknc.sma.ncsu.edu:8000/wknchq.ogg.m3u
+http://stream-tx1.radioparadise.com:9000/rp_192.ogg
+http://www.kwur.com/icecast/kwurogg.m3u
+http://vu.wsum.wisc.edu/wsumlive.m3u
+http://audio.wbur.org/stream/live_ogg.m3u
+http://network.absoluteradio.co.uk/core/audio/ogg/live.pls?service=vrbb
+http://network.absoluteradio.co.uk/core/audio/ogg/live.pls?service=a8bb
+http://network.absoluteradio.co.uk/core/audio/ogg/live.pls?service=a9bb
+http://network.absoluteradio.co.uk/core/audio/ogg/live.pls?service=vcbb
+
