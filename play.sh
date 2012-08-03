@@ -17,8 +17,17 @@ sh -c "mv "$i" radio/"$i"-"$c".ogg";
 done;
 count=$(find ${1-.} | wc -l) # Anzahl der Dateien
 
-select=$(cat ./list.txt | tr "~" "\t"  | zenity --list --title "Search Results" --text "Finding all header files.." --column "Files")
+select=$(cat ./list.txt | tr "~" "\t"  | zenity --list --title "In your radio list are these..." --text "Finding all radio urls.." --column "Files")
  
-wget $select &
+ 
+if [ "$select" = "" ]
+then
+exit;
+fi
+
+
+wget $select  &
 sleep 5
 $player ./*.ogg
+
+
